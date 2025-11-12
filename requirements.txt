@@ -3,13 +3,8 @@ pandas==2.0.3
 plotly==5.15.0
 seaborn==0.12.2
 matplotlib==3.7.1
-
-# Use a NumPy that provides wheels for Python 3.13 to avoid building from source
-numpy>=2.1.0
-
-# Pillow must be <10 for Streamlit 1.24.0
+numpy==1.24.4
 pillow==9.5.0
-
-# Packaging helpers (install as packages, not shell commands)
 setuptools>=65.0.0
 wheel
+
