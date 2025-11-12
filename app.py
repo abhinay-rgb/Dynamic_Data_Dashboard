@@ -18,8 +18,8 @@ except ImportError:
     trendline_available = False
 
 st.set_page_config(layout="wide")
-st.title("📊 Dynamic Data Visualization Dashboard")
-st.caption("Developed by Akshith🧑‍💻")
+st.title("Dynamic Data Visualization Dashboard")
+st.caption("Developed by Abhinay")
 
 # Initialize session state
 if 'original_df' not in st.session_state:
